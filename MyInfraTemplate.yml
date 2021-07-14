@@ -5,7 +5,7 @@ Resources:
     SecurityGroups:
      - !Ref InstanceSecurityGroup
     KeyName: udacity-devops-kp
-    ImageId: 'ami-09e67e426f25ce0d7' 
+    ImageId: 'ami-0ee02acd56a52998e' 
   InstanceSecurityGroup:
     Type: 'AWS::EC2::SecurityGroup'
     Properties:
