@@ -11,8 +11,7 @@ jobs:
           command: |
             aws cloudformation deploy \
               --template-file MyInfraTemplate.yml \
-              --stack-name MyInfra-stack
-              --region us-east-1
+              --stack-name MyInfra-Stack
 workflows:
   my_workflow:
     jobs:
